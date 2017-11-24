@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.nicky.com/schema/student">
+
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+
+    <element name="student">
+
+        <complexType>
+
+            <attribute name="id" type="string" use="required" />
+
+            <attribute name="name" type="string"/>
+
+            <attribute name="age" type="int"/>
+        </complexType>
+    </element>
+
+
+</xsd:schema>
